@@ -10,7 +10,7 @@ function page() {
       <Hero/>
       <Services/>
       <Contact/>
-      <p> Developed by <Link className='underline'  href="mailto:imailaryan01@gmail.com"> Aryan Vishwakarma </Link> </p>
+      <p className='text-center'> Developed by <Link className='underline '  href="mailto:imailaryan01@gmail.com"> Aryan Vishwakarma </Link> </p>
     </main>
   )
 }

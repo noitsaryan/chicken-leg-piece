@@ -8,7 +8,7 @@ function Hero() {
   return (
     <section className='flex gap-8 justify-center flex-col-reverse lg:flex-row'>
       <div className=' py-[8vw] space-y-5 '>
-        <h1 className='lg:text-4xl text-center text-3xl lg:text-left font-bold'>Hi, I'm <Link href="https://www.facebook.com/chickenlegpiececlp" className='border-b-4 border-red-500 '>Chicken Leg Piece.</Link></h1>
+        <h1 className='lg:text-4xl text-center text-3xl lg:text-left font-bold'>Hi, I'm <br className='md:hidden' /> <Link href="https://www.facebook.com/chickenlegpiececlp" className='border-b-4 border-red-500 '>Chicken Leg Piece.</Link></h1>
         <p className='text-sm  lg:text-left text-center'>~ <Link href="https://g.co/kgs/UuZiLf" className=' text-xl lg:text-2xl'>Ulhas Kamathe<span className='text-red-500'>.</span></Link></p>
         <div className='flex items-center gap-4 text-4xl '>
         </div>
@@ -21,7 +21,7 @@ function Hero() {
                   e.icon
                 }
                 <p className='text-gray-400 text-center md:text-left truncate md:block'> {e.name} </p>
-                <p className='text-3xl font-bold text-center md:text-left'> {e.followers} </p>
+                <p className='text-xl md:text-4xl font-bold text-center md:text-left'> {e.followers} </p>
               </div>
               </Link>
             ))
